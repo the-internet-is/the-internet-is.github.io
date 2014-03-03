@@ -1,1 +1,0 @@
-defaultwebpage.cgi
