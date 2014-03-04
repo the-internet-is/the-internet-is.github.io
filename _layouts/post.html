@@ -6,8 +6,8 @@ layout: default
 {{ content }}
 </div>
 
-
+{% unless page.permalink == 'recently' %}
 <div class="footer">
-<a class="extra" href="/">Big Deal, What Else is The Internet?</a>
+<a class="extra" href="/recently">Big Deal, What Else is The Internet?</a>
 </div>
-
+{% endunless %}
